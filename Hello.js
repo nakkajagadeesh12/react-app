@@ -6,6 +6,7 @@ class Hello extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      
     }
   }
   changeHandler(e) {
@@ -15,17 +16,21 @@ class Hello extends React.Component {
     return (
       <div class="fluid-container main">
         <div class="row div">
-          <div class="col-lg-3 div1">
+          <div class="col-lg-2 div1">
+            <i class='fas icon'>&#xf07a;</i>
             <h3>Hyper Bazar</h3>
           </div>
           <div class="col-lg-5 div2">
             <input
               type="text"
-              placeholder="Search"
+              placeholder="search"
               onChange={this.changeHandler.bind(this)}
             />
+            <button className="button1">
+              <i class="fa">&#xf002;</i></button>
           </div>
           <div class="col-lg-2 div3">
+
             <button type="button" class="btn btn-link">LogIn</button>
           </div>
           <div class="col-lg-2 div4">

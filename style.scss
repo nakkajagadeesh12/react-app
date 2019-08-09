@@ -3,13 +3,27 @@ margin-top: 2%;
 }
 
 .div1{
-  padding-left: 2%;
+  text-align: center;
+  display: flex;
 }
 
 .div2 input{
   width: 100%;
+  position: absolute;
 }
 
 .div3{
-  padding-left: 2%;
+  padding-left: 10%;
+}
+
+.button1{
+  margin-left: 106%;
+}
+i{
+  cursor: pointer;
+}
+
+.icon{
+  margin-top: 4%;
+  margin-left: 7%;
 }
