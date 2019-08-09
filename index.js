@@ -4,6 +4,7 @@ import Hello from './Hello';
 import './style.css';
 import { Provider } from 'react-redux';
 import store from './store';
+import List from './List';
 
 class App extends Component {
   constructor() {
@@ -17,6 +18,7 @@ class App extends Component {
     return (
       <div>
         <Hello />
+        <List />
       </div>
     );
   }
@@ -24,5 +26,5 @@ class App extends Component {
 
 render(
   <Provider store={store}>
-  <App />
-</Provider>, document.getElementById('root'));
+    <App />
+  </Provider>, document.getElementById('root'));
