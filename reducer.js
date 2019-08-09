@@ -1,3 +1,5 @@
+import { SEARCH_UPDATED } from './constants';
+
 const initialState = {
   search: " ",
 }
@@ -12,3 +14,5 @@ const storeReducer = (state = initialState, action) => {
       return state;
   }
 }
+
+export default storeReducer;
