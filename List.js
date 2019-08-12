@@ -10,7 +10,7 @@ class List extends React.Component {
             <div class="dropdown">
               <button type="select" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                 Menswear
-  </button>
+                </button>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">Link 1</a>
                 <a class="dropdown-item" href="#">Link 2</a>
