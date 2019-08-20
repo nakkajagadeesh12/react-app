@@ -11,7 +11,6 @@ class List extends React.Component {
           <div class="col-lg-2 item">Kidswear</div>
           <div class="col-lg-2 item">Electronics</div>
           <div class="col-lg-2 item">Furniture</div> 
-          
         </div>
       </div>
     )
