@@ -15,6 +15,7 @@
 
 .set-font{
   font-size: -webkit-xxx-large;
+  color: #359c9c;
 }
 
 .menu-styl{
@@ -32,8 +33,8 @@ i{
   margin-left: 7%;
 }
 .set-header{
-  padding: 15px;
-       font-family: fantasy;
+  padding: 15px 15px 0px 0px;
+    font-family: fantasy;
     font-size: 30px;
     color: #359c9c;
 
@@ -56,4 +57,13 @@ i{
   
       cursor: pointer;
     color: #00ff80;
+}
+.tag-line{
+    font-size: 11px;
+    color: #268182;
+    font-family: monospace;
+    float: right;
+}
+.btn-link {
+    color: #373a3e !important;
 }

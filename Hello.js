@@ -18,7 +18,9 @@ class Hello extends React.Component {
         <div class="row div mt2">
           <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 div1">
             <i class='fas icon set-font'>&#xf07a;</i>
-            <h3 className='set-header'>Hyper Bazar</h3>
+            <h3 className='set-header'>Hyper Bazar
+            <div className='tag-line'>A market for you</div>
+            </h3>
           </div>
           <div class="col-lg-5 div2">
             <input
