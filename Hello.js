@@ -15,26 +15,27 @@ class Hello extends React.Component {
   render() {
     return (
       <div class="fluid-container main">
-        <div class="row div">
-          <div class="col-lg-2 div1">
-            <i class='fas icon'>&#xf07a;</i>
-            <h3>Hyper Bazar</h3>
+        <div class="row div mt2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 div1">
+            <i class='fas icon set-font'>&#xf07a;</i>
+            <h3 className='set-header'>Hyper Bazar</h3>
           </div>
           <div class="col-lg-5 div2">
             <input
               type="text"
               placeholder="search"
               onChange={this.changeHandler.bind(this)}
+              className='set-input-height'
             />
             <button className="button1">
               <i class="fa">&#xf002;</i></button>
           </div>
-          <div class="col-lg-2 div3">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 div3">
 
-            <button type="button" class="btn btn-link">LogIn</button>
+            <button type="button" class="btn btn-link login-font set-float-right">LogIn</button>
           </div>
-          <div class="col-lg-2 div4">
-            <button type="button" class="btn btn-link">SignUp</button>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 div4">
+            <button type="button" class="btn btn-link login-font ">SignUp</button>
           </div>
         </div>
       </div>
