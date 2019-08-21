@@ -39,6 +39,10 @@ height: 25px;
 .btn1,.btn2{
   background-color: #bdbd54;
 }
+.btn1:hover , .btn2:hover {
+ background-color: slategrey;
+}
+
 img {
   margin: 2px;
 }
