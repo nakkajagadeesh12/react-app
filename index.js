@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
+import Home from './Home';
 import './style.css';
 import { Provider } from 'react-redux';
 import store from './store';
-import List from './List';
-import ItemList from './ItemList';
+
 import { BrowserRouter } from 'react-router-dom';
+import Route from 'react-router-dom/Route';
 
 class App extends Component {
   constructor() {
@@ -18,16 +18,15 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Hello />
-        <List />
-        <ItemList />
+        <BrowserRouter>
+          <Route path="/" component={Home} />
+        </BrowserRouter>
       </div>
     );
   }
 }
 
 render(
-  <BrowserRouter>
-    <Provider store={store}>
-      <App />
-    </Provider></BrowserRouter>, document.getElementById('root'));
+  <Provider store={store}>
+    <App />
+  </Provider>, document.getElementById('root'));
