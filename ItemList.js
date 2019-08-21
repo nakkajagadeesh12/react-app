@@ -41,6 +41,10 @@ const ItemList = () => {
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/photos').then((response) => response.json()).then((response) => setData(response))
   }, [])
+
+  const buttonClick = (item) => {
+    console.log(item.id);
+  }
   return (
     <div className="item-list">
       {data && data.map(item => {
@@ -53,10 +57,9 @@ const ItemList = () => {
               </div>
             </div>
             <div className="it-2">
-              <div className="class1"><button className="btn1" onClick={this.buttonClick}>Add to cart</button></div>
+              <div className="class1"><button className="btn1" onClick={() => buttonClick(item)}>Add to cart</button></div>
               <div className="class2"><button className="btn2">Buy Now</button></div>
             </div>
-
           </div>)
       })}
     </div>
