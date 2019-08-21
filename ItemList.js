@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './ItemList.css';
+import Cart from './Cart';
 
 // class ItemList extends React.Component {
 //   constructor(props) {
@@ -62,6 +63,7 @@ const ItemList = () => {
             </div>
           </div>)
       })}
+      <Cart />
     </div>
   )
 }

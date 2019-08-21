@@ -6,6 +6,7 @@ import { Provider } from 'react-redux';
 import store from './store';
 import List from './List';
 import ItemList from './ItemList';
+import { BrowserRouter } from 'react-router-dom';
 
 class App extends Component {
   constructor() {
@@ -26,6 +27,7 @@ class App extends Component {
 }
 
 render(
-  <Provider store={store}>
-    <App />
-  </Provider>, document.getElementById('root'));
+  <BrowserRouter>
+    <Provider store={store}>
+      <App />
+    </Provider></BrowserRouter>, document.getElementById('root'));
