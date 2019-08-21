@@ -5,6 +5,7 @@ import './style.css';
 import { Provider } from 'react-redux';
 import store from './store';
 import List from './List';
+import ItemList from './ItemList';
 
 class App extends Component {
   constructor() {
@@ -13,12 +14,12 @@ class App extends Component {
 
     };
   }
-
   render() {
     return (
       <div>
         <Hello />
         <List />
+        <ItemList />
       </div>
     );
   }
