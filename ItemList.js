@@ -37,7 +37,7 @@ import './ItemList.css';
 // }
 
 const ItemList = () => {
-  const [data, setData] = useState(0);
+  const [data, setData] = useState([]);
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/photos').then((response) => response.json()).then((response) => setData(response))
   }, [])

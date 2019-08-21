@@ -1,3 +1,11 @@
-.div1{
-  
+
+
+.dropdown-content{
+  position: absolute;
+  display:none;
+}
+
+
+.item .dropdown-content:hover{
+  display:none;
 }
