@@ -53,7 +53,7 @@ const ItemList = () => {
               </div>
             </div>
             <div className="it-2">
-              <div className="class1"><button className="btn1">Add to cart</button></div>
+              <div className="class1"><button className="btn1" onClick={this.buttonClick}>Add to cart</button></div>
               <div className="class2"><button className="btn2">Buy Now</button></div>
             </div>
 
