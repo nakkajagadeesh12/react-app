@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './ItemList.css';
 import Cart from './Cart';
 
+const addcart = [];
 // class ItemList extends React.Component {
 //   constructor(props) {
 //     super(props);
@@ -39,12 +40,14 @@ import Cart from './Cart';
 
 const ItemList = () => {
   const [data, setData] = useState([]);
+  const [cart, setCart] = useState([]);
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/photos').then((response) => response.json()).then((response) => setData(response))
   }, [])
 
   const buttonClick = (item) => {
-    console.log(item.id);
+    addcart.push(item);
+    setCart(addcart);
   }
   return (
     <div className="item-list">
@@ -58,12 +61,20 @@ const ItemList = () => {
               </div>
             </div>
             <div className="it-2">
-              <div className="class1"><button className="btn1" onClick={() => buttonClick(item)}>Add to cart</button></div>
+              <div className="class1">
+                <button className="btn1" onClick={() => buttonClick(item)}>
+                  Add to cart
+                </button>
+                <div className="popup-data">
+                  <Cart
+                    data={cart}
+                  />
+                </div>
+              </div>
               <div className="class2"><button className="btn2">Buy Now</button></div>
             </div>
           </div>)
       })}
-      <Cart />
     </div>
   )
 }

@@ -46,3 +46,7 @@ height: 25px;
 img {
   margin: 2px;
 }
+
+.popup-data{
+  display: none;
+}
