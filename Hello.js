@@ -34,7 +34,7 @@ class Hello extends React.Component {
           <div class="col-lg-5 div2">
             <input
               type="text"
-              placeholder="search"
+              placeholder="Search for products, brands and more"
               onChange={this.changeHandler.bind(this)}
               className='set-input-height'
             />

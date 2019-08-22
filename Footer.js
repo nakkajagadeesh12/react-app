@@ -5,7 +5,7 @@ const Footer=()=>{
   return <div className='col-lg-12 bg-color'>
        <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
          <hr/>
-        <h4 className='text-center'>@Copy Rights Reserved Hyper Bazar @ 2019</h4>
+        <h4 className='text-center'><i class="far fa-copyright"></i>Copy Rights Reserved Hyper Bazar @ 2019</h4>
        </div></div>
 }
 export {Footer};
