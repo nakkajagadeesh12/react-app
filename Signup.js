@@ -1,12 +1,12 @@
 import React from 'react';
-import Hello from './Hello';
+import Header from './Header';
 import List from './List';
 import './Signup.css';
 
 const Signup = () => {
   return (
     <div>
-      <Hello />
+      <Header />
       <List />
       <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 login-sign-up-bg'>
       <div class="col-lg-4 form-class pt15">

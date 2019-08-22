@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
+import Header from './Header';
 import './style.css';
 import List from './List';
 import ItemList from './ItemList';
@@ -16,7 +16,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Hello />
+        <Header />
         <List />
         <ItemList />
         <Footer/>

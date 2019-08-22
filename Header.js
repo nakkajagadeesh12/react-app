@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import './style.scss';
 import { Link } from 'react-router-dom';
 
-class Hello extends React.Component {
+class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -74,4 +74,4 @@ const mapDispatchToProps = dispatch => ({
 });
 
 
-export default connect(null, mapDispatchToProps)(Hello);
+export default connect(null, mapDispatchToProps)(Header);
