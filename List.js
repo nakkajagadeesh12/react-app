@@ -2,7 +2,7 @@ import React from 'react';
 import './List.scss';
 import { Link } from 'react-router-dom';
 
-const list = ['Menswear', 'Womenswear', 'Kidswear', 'Electronics', 'Furniture'];
+const list = ['Men', 'Women', 'Kids', 'Electronics', 'Furniture', 'Books'];
 
 class List extends React.Component {
   render() {
@@ -17,10 +17,10 @@ class List extends React.Component {
                   <div className="dropdown vertical-sub">
                     {item}
                     <div className="dropdown-content">
-                      <a href="#">link1</a>
-                      <a href="#">link2</a>
-                      <a href="#">link3</a>
-                      <a href="#">link4</a>
+                      <a href="#">Shoes</a>
+                      <a href="#">Cloths</a>
+                      <a href="#">Watches</a>
+                      <a href="#">Health & Personal Care</a>
                     </div>
                   </div>
                 </div>
