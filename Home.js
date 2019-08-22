@@ -5,6 +5,7 @@ import './Header.css';
 import List from './List';
 import ItemList from './ItemList';
 import {Footer}  from './Footer'
+import './global.css'
 
 class Home extends Component {
   constructor() {
@@ -19,7 +20,9 @@ class Home extends Component {
         <Header />
         <List />
         <ItemList />
+        <div className='pt20'>
         <Footer/>
+        </div>
       </div>
     );
   }
