@@ -1,6 +1,6 @@
 import React from 'react';
 import './List.scss';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const list = ['Menswear', 'Womenswear', 'Kidswear', 'Electronics', 'Furniture'];
 
@@ -8,7 +8,7 @@ class List extends React.Component {
   render() {
     return (
       <div class="fluid-container main menu-styl" >
-        <div class="container row div" style={{ color: "white"}}>
+        <div class="container row div" style={{ color: "white" }}>
           {
             list && list.map((item) => {
               return (
