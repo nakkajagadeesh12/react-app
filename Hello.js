@@ -10,7 +10,7 @@ class Hello extends React.Component {
 
     }
   }
-  
+
   changeHandler(e) {
     this.props.searchUpdated(e.target.value);
   }
@@ -24,12 +24,12 @@ class Hello extends React.Component {
               <li>
                 <Link to="/">
                   <i class='fas icon set-font'>&#xf07a;</i>
-                  <h3 className='set-header'>Hyper Bazar
-            <div className='tag-line'>A market for you</div>
-                  </h3>
                 </Link>
               </li>
             </ul>
+            <h3 className='set-header'>Hyper Bazar
+            <div className='tag-line'>A market for you</div>
+            </h3>
           </div>
           <div class="col-lg-5 div2">
             <input
