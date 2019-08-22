@@ -8,8 +8,8 @@ const Login = () => {
     <div>
       <Hello />
       <List />
+      <div class="col-lg-3 login-class">
       <h1>Login</h1>
-      <div class="jumbotron login-class">
         <form>
           <div>
             <label for="uname">UserName: </label><br />

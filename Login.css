@@ -3,13 +3,13 @@ h1{
 }
 
 .login-class{
-  width: 42%;
+  
   margin: auto;
-  padding-left: 190px;
+  
 }
 
 .login-btn{
-  width: 30%;
+  float:right;
 }
 
 .log-btn{
