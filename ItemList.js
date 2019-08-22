@@ -51,7 +51,9 @@ const ItemList = () => {
   }
   return (
     <div className="item-list">
-      {data && data.slice(0,56).map((item) => {
+      {data && data.slice(0, 56).map((item) => {
+        const no = Math.floor(Math.random() * 1000);
+        item.thumbnailUrl = `https://source.unsplash.com/collection/${no}`;
         return (
           <div className="item-it">
             <div className="it-1">
