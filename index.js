@@ -7,6 +7,8 @@ import store from './store';
 import { BrowserRouter } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import Cart from './Cart';
+import Login from './Login';
+import Signup from './Signup';
 
 class App extends Component {
   constructor() {
@@ -19,8 +21,10 @@ class App extends Component {
     return (
       <div>
         <BrowserRouter>
-          <Route path="/" component={Home} />
-          <Route path="/cart" component={Cart}/>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/cart" component={Cart} />
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/signup" component={Signup} />
         </BrowserRouter>
       </div>
     );
