@@ -10,9 +10,11 @@ class Hello extends React.Component {
 
     }
   }
+  
   changeHandler(e) {
     this.props.searchUpdated(e.target.value);
   }
+
   render() {
     return (
       <div class="fluid-container main">
