@@ -2,6 +2,7 @@
 .dropdown{
   position: relative;
   display: inline-block;
+  vertical-align: sub;
 }
 
 .dropdown-content{
@@ -27,5 +28,5 @@
 }
 
 .cart-icon{
-  padding-left: 170px;
+  
 }

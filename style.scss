@@ -59,6 +59,9 @@ i{
       cursor: pointer;
     color: #00ff80;
 }
+.item{
+  text-align: center;
+}
 .tag-line{
     font-size: 11px;
     color: #268182;
@@ -74,4 +77,8 @@ input:focus{
 
 ul{
   list-style: none;
+}
+.cart-icon a{
+  color:white;
+  font-size:20px;
 }

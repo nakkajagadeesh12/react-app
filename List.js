@@ -1,5 +1,6 @@
 import React from 'react';
 import './style1.scss';
+import {Link} from 'react-router-dom';
 
 const list = ['Menswear', 'Womenswear', 'Kidswear', 'Electronics', 'Furniture'];
 
@@ -7,12 +8,12 @@ class List extends React.Component {
   render() {
     return (
       <div class="fluid-container main menu-styl" >
-        <div class="container row div" style={{ color: "white", padding: "10px" }}>
+        <div class="container row div" style={{ color: "white"}}>
           {
             list && list.map((item) => {
               return (
                 <div class="col-lg-2 item">
-                  <div className="dropdown">
+                  <div className="dropdown vertical-sub">
                     {item}
                     <div className="dropdown-content">
                       <a href="#">link1</a>
@@ -25,7 +26,15 @@ class List extends React.Component {
               )
             })
           }
-          <div class="col-lg-2 cart-icon"><i class="fas fa-shopping-cart"></i></div>
+          <div class="col-lg-2 cart-icon">
+            <ul>
+              <li>
+                <Link to="/cart">
+                  <i class="fas fa-shopping-cart"></i>
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     )
