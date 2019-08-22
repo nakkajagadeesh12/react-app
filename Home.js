@@ -4,6 +4,7 @@ import Hello from './Hello';
 import './style.css';
 import List from './List';
 import ItemList from './ItemList';
+import {Footer}  from './Footer'
 
 class Home extends Component {
   constructor() {
@@ -18,6 +19,7 @@ class Home extends Component {
         <Hello />
         <List />
         <ItemList />
+        <Footer/>
       </div>
     );
   }

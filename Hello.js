@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import './style.scss';
+import { Link } from 'react-router-dom';
 
 class Hello extends React.Component {
   constructor(props) {
@@ -29,13 +30,30 @@ class Hello extends React.Component {
               onChange={this.changeHandler.bind(this)}
               className='set-input-height'
             />
-
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 div3">
-            <button type="button" class="btn login-font set-float-right"><i class="fa fa-user-circle" aria-hidden="true"></i>LogIn</button>
+            <button type="button" class="btn login-font set-float-right">
+              <ul>
+                <li>
+                  <Link to="/login">
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                    LogIn
+            </Link>
+                </li>
+              </ul>
+            </button>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 div4">
-            <button type="button" class="btn  login-font "><i class="fa fa-bell" aria-hidden="true"></i>SignUp</button>
+            <button type="button" class="btn login-font ">
+              <ul>
+                <li>
+                  <Link to="/signup">
+                    <i class="fa fa-bell" aria-hidden="true"></i>
+                    SignUp
+            </Link>
+                </li>
+              </ul>
+            </button>
           </div>
         </div>
       </div>

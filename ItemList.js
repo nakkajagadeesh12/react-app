@@ -51,7 +51,7 @@ const ItemList = () => {
   }
   return (
     <div className="item-list">
-      {data && data.map(item => {
+      {data && data.slice(0,56).map((item) => {
         return (
           <div className="item-it">
             <div className="it-1">
