@@ -1,5 +1,5 @@
 import React from 'react';
-import './style1.scss';
+import './List.scss';
 import {Link} from 'react-router-dom';
 
 const list = ['Menswear', 'Womenswear', 'Kidswear', 'Electronics', 'Furniture'];

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Header from './Header';
-import './style.css';
+import './Header.css';
 import List from './List';
 import ItemList from './ItemList';
 import {Footer}  from './Footer'

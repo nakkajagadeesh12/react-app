@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import './style.scss';
+import './Header.scss';
 import { Link } from 'react-router-dom';
 
 class Header extends React.Component {
