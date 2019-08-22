@@ -10,25 +10,18 @@ import Cart from './Cart';
 import Login from './Login';
 import Signup from './Signup';
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
 
-    };
-  }
-  render() {
-    return (
-      <div>
-        <BrowserRouter>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/cart" component={Cart} />
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/signup" component={Signup} />
-        </BrowserRouter>
-      </div>
-    );
-  }
+const App = () => {
+  return (
+    <div>
+      <BrowserRouter>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/cart" component={Cart} />
+        <Route exact path="/login" component={Login} />
+        <Route exact path="/signup" component={Signup} />
+      </BrowserRouter>
+    </div>
+  )
 }
 
 render(
