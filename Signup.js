@@ -8,7 +8,7 @@ const Signup = () => {
     <div>
       <Hello />
       <List />
-      <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+      <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 login-sign-up-bg'>
       <div class="col-lg-4 form-class pt15">
       <h2>Registration</h2>
         <form>

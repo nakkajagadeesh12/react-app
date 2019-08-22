@@ -8,7 +8,7 @@ const Login = () => {
     <div>
       <Hello />
       <List />
-      <div className='col-lg-12 pt15'>
+      <div className='col-lg-12  login-sign-up-bg'>
       <div class="col-lg-4 login-class">
         <h2>Login</h2>
         <form>
