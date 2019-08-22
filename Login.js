@@ -8,17 +8,18 @@ const Login = () => {
     <div>
       <Hello />
       <List />
-      <div class="col-lg-3 login-class">
-      <h1>Login</h1>
+      <div className='col-lg-12 pt15'>
+      <div class="col-lg-4 login-class">
+        <h2>Login</h2>
         <form>
           <div>
-            <label for="uname">UserName: </label><br />
-            <input type="text" required id="uname" name="uname" />
+            <label for="uname">Email or Mobile No: </label><br />
+            <input type="text" className="form-control" required id="uname" name="uname" />
           </div>
           <br />
           <div>
             <label for="pwd">Password: </label><br />
-            <input type="password" required id="pwd" name="pwd" />
+            <input type="password" className="form-control" required id="pwd" name="pwd" />
           </div>
           <br />
           <div class="login-btn">
@@ -26,6 +27,7 @@ const Login = () => {
           </div>
         </form>
       </div>
+    </div>
     </div>
   )
 }

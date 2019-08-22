@@ -32,10 +32,10 @@ class Hello extends React.Component {
 
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 div3">
-            <button type="button" class="btn btn-link login-font set-float-right">LogIn</button>
+            <button type="button" class="btn login-font set-float-right"><i class="fa fa-user-circle" aria-hidden="true"></i>LogIn</button>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 div4">
-            <button type="button" class="btn btn-link login-font ">SignUp</button>
+            <button type="button" class="btn  login-font "><i class="fa fa-bell" aria-hidden="true"></i>SignUp</button>
           </div>
         </div>
       </div>

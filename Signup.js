@@ -8,33 +8,40 @@ const Signup = () => {
     <div>
       <Hello />
       <List />
-      <h1>Registration</h1>
-      <div class="jumbotron form-class">
+      <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+      <div class="col-lg-4 form-class pt15">
+      <h2>Registration</h2>
         <form>
           <div>
             <label for="uname">UserName: </label> <br />
-            <input type="text" required id="uname" name="uname" />
+            <input type="text" required id="uname" className='form-control' name="uname" />
           </div>
           <br />
           <div>
             <label for="email">Email: </label> <br />
-            <input type="email" required id="email" name="email" />
+            <input type="email" required id="email" className='form-control' name="email" />
           </div>
           <br />
           <div>
             <label for="pno">PhoneNo: </label> <br />
-            <input type="text" required id="pno" name="pno" />
+            <input type="text" required id="pno" className='form-control' name="pno" />
           </div>
           <br />
           <div>
             <label for="pwd">Password: </label> <br />
-            <input type="password" required id="pwd" name="pwd" />
+            <input type="password" required id="pwd" className='form-control' name="pwd" />
           </div>
           <br />
-          <div className="signin-btn">
+            <div>
+            <label for="confirmpwd">Confirm Password: </label> <br />
+            <input type="password" required id="confirmpwd" className='form-control' name="confirmpwd" />
+          </div>
+          <br />
+          <div className="signup-btn">
             <button class="btn btn-primary">Register</button>
           </div>
         </form>
+      </div>
       </div>
     </div>
   )
