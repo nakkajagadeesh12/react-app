@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Home from './Home';
-import '/Header.css';
+import './style.css';
 import { Provider } from 'react-redux';
 import store from './store';
 import { BrowserRouter } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import Cart from './Cart';
-import Login from './Login';
-import Signup from './Signup';
 
 class App extends Component {
   constructor() {
@@ -21,10 +19,8 @@ class App extends Component {
     return (
       <div>
         <BrowserRouter>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/cart" component={Cart} />
-          <Route path="/login" component={Login} />
-          <Route path="/signup" component={Signup} />
+          <Route path="/" component={Home} />
+          <Route path="/cart" component={Cart}/>
         </BrowserRouter>
       </div>
     );
