@@ -9,6 +9,7 @@ import Route from 'react-router-dom/Route';
 import Cart from './Cart';
 import Login from './Login';
 import Signup from './Signup';
+import OrderDetails from './OrderDetails';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/signup" component={Signup} />
+        <Route exact path="/details" component={OrderDetails}/>
       </BrowserRouter>
     </div>
   )
