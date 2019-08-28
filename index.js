@@ -14,7 +14,7 @@ import OrderDetails from './OrderDetails';
 
 const App = () => {
   return (
-    <div>
+    <div className='main'>
       <BrowserRouter>
         <Route exact path="/" component={Home} />
         <Route exact path="/cart" component={Cart} />
