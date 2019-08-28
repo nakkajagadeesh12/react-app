@@ -6,6 +6,7 @@ import List from './List';
 import ItemList from './ItemList';
 import {Footer}  from './Footer'
 import './global.css'
+import DailyOffers from './DailyOffers';
 
 class Home extends Component {
   constructor() {
@@ -18,7 +19,9 @@ class Home extends Component {
     return (
       <div>
         <Header />
+      
         <List />
+          <DailyOffers/>
         <ItemList />
         <div className='pt20'>
         <Footer/>
