@@ -8,7 +8,7 @@ class List extends React.Component {
   render() {
     return (
       <div class="fluid-container main menu-styl" >
-        <div class="container row div col-lg-12" style={{ color: "white" }}>
+        <div class="container row div col-lg-12" style={{ color: "white",padding: '5px' }}>
         <div class="col-lg-11 row">
           {
             list && list.map((item) => {
@@ -33,8 +33,8 @@ class List extends React.Component {
               <li>
                 <Link to="/cart">
                   <div id="ex4">
-                    <span class="p1  fa-2x has-badge" data-count="4">
-                      <i class="p3 fa fa-shopping-cart fa-stack-1x xfa-inverse" data-count="4b"></i>
+                    <span class="p1  fa-2x has-badge" data-count="0">
+                      <i class="p3 fa fa-shopping-cart fa-stack-1x xfa-inverse" data-count="0"></i>
                     </span>
                   </div>
                 </Link>
