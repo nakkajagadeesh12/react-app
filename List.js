@@ -32,7 +32,11 @@ class List extends React.Component {
             <ul>
               <li>
                 <Link to="/cart">
-                  <i class="fas fa-shopping-cart"></i>
+                  <div id="ex4">
+                    <span class="p1  fa-2x has-badge" data-count="4">
+                      <i class="p3 fa fa-shopping-cart fa-stack-1x xfa-inverse" data-count="4b"></i>
+                    </span>
+                  </div>
                 </Link>
               </li>
             </ul>
