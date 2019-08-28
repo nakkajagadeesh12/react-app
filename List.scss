@@ -2,7 +2,6 @@
 .dropdown{
   position: relative;
   display: inline-block;
-  vertical-align: sub;
 }
 
 .dropdown-content{
@@ -32,4 +31,22 @@
 
 .cart-icon{
   
+}
+.fa-shopping-cart{
+  font-size:25px;
+}
+#ex4 .p1[data-count]:after{
+  position:absolute;
+  right:27%;
+  top:-15%;
+  content: attr(data-count);
+  font-size:40%;
+  padding:.2em;
+  border-radius:50%;
+  line-height:1em;
+  color: white;
+  background:rgba(255,0,0,.85);
+  text-align:center;
+  min-width: 23px;
+  //font-weight:bold;
 }
