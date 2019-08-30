@@ -14,16 +14,15 @@ slide
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="la.jpg" alt="Los Angeles" width="1100" height="500" />
+      <img src="https://source.unsplash.com/collection/1" alt="Los Angeles" width="1100" height="500" />
     </div>
     <div class="carousel-item">
-      <img src="chicago.jpg" alt="Chicago" width="1100" height="500" />
+      <img src="https://source.unsplash.com/collection/2" alt="Chicago" width="1100" height="500" />
     </div>
     <div class="carousel-item">
-      <img src="ny.jpg" alt="New York" width="1100" height="500" />
+      <img src="https://source.unsplash.com/collection/3" alt="New York" width="1100" height="500" />
     </div>
   </div>
-  
   <a class="carousel-control-prev" href="#demo" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </a>
