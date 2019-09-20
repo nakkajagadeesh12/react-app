@@ -41,9 +41,6 @@ class List extends React.Component {
               </li>
             </ul>
           </div>
-          <div class="col-lg-1">
-            <button class="btn btn-primary">Pin</button>
-          </div>
         </div>
       </div>
     )
