@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './ItemList.css';
 import Cart from './Cart';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const addcart = [];
 // class ItemList extends React.Component {
@@ -58,8 +58,8 @@ const ItemList = () => {
         return (
           <div className="item-it">
             <div className="it-1">
-            <Link to="/details">
-              <img src={item.thumbnailUrl} alt="image" />
+              <Link to="/details">
+                <img src={item.thumbnailUrl} alt="image" />
               </Link>
               <div className="it-3">
                 <p>product {item.id}</p>
