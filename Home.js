@@ -22,7 +22,7 @@ class Home extends Component {
         <Header />
         <List />
         <DailyOffers />
-        <Slide />
+        
         <ItemList />
         <div className='pt20'>
           <Footer />
