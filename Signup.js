@@ -12,6 +12,7 @@ const Signup = () => {
       <div class="col-lg-4 form-class pt15">
       <h2>Registration</h2>
         <form>
+        <div className="jumbotron">
           <div>
             <label for="uname">UserName: </label> <br />
             <input type="text" required id="uname" className='form-control' name="uname" />
@@ -37,6 +38,7 @@ const Signup = () => {
             <input type="password" required id="confirmpwd" className='form-control' name="confirmpwd" />
           </div>
           <br />
+          </div>
           <div className="signup-btn">
             <button class="btn btn-primary">Register</button>
           </div>
